@@ -17,10 +17,10 @@
 			"Can only be built [in capital]",
 			"Destroyed when the city is captured"
 		],
-		"quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
+		"quote": "'Idle boast the strong pass is a wall of iron; with firm strides we are crossing its summit.' - Old poem from a great person",
 		"civilopediaText": [
 			{
-				"text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit."
+				"text": "'Idle boast the strong pass is a wall of iron; with firm strides we are crossing its summit.' - Old poem from a great person"
 			}
 		]
 	},
@@ -39,7 +39,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Estabilishing a basis for common ownership."
+				"text": "'...reestabilishing a basis for common ownership.' - Command #5 from the Socialist Authority"
 			}
 		]
 	},
@@ -59,7 +59,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Slavers turn people into the walking dead, our new society will remind them what it means to be people."
+				"text": "'Slavers turn people into the walking dead. Our new society will remind them what it means to be people.' - Propaganda material"
 			}
 		],
 		"requiredTech": "Construction"
@@ -71,7 +71,7 @@
 		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+20]% Production when constructing [Military] units [in all cities]",
+			"[+10]% Production when constructing [Military] units [in all cities]",
 			"New [Military] units start with [15] Experience [in all cities]",
 			"All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -88,7 +88,7 @@
 	{
 		"name": "Strengthened Mass Line",
 		"cost": 150,
-		"culture": 5,
+		"culture": 3,
 		"replaces": "Council",
 		"uniqueTo": "United Commune of People",
 		"requiredTech": "Civil Service",
@@ -96,7 +96,7 @@
 			"[+1 Production] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities]",
-			"[+15]% City Strength from defensive buildings",
+			"[+15]% Production towards any buildings that already exist in the Capital",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Global Liberation Command]>",

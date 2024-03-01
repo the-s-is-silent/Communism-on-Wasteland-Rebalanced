@@ -19,14 +19,36 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Crouching Tiger",
+		"replaces": "Crossbowman",
+		"uniqueTo": "United Commune of People",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 25,
+		"cost": 35,
+		"hurryCostModifier": 20,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+100]% Strength <vs cities> <when attacking>"
+		],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Red Vanguards",
+		"replaces": "Tank",
+		"uniqueTo": "United Commune of People",
 		"unitType": "Armor",
 		"movement": 4,
 		"strength": 60,
 		"cost": 250,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniqueTo": "United Commune of People",
 		"obsoleteTech": "Advanced Materials",
 		"uniques": [
 			"Can move after attacking",
@@ -43,24 +65,27 @@
 	{
 		"name": "Wind of the East",
 		"unitType": "Siege",
-		"range": 2,
-		"movement": 5,
-		"strength": 35,
+		"movement": 3,
+		"strength": 30,
 		"rangedStrength": 45,
+		"range": 3,
 		"cost": 350,
-		"requiredTech": "Lasers",
+		"requiredTech": "Rocketry",
+		"replaces": "Rocket Artillery",
 		"uniqueTo": "United Commune of People",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[+150]% Strength <vs [Armor] units>",
-			"May withdraw before melee ([50]%)",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[-50]% Strength <vs [Helicopter] units>",
+			"May withdraw before melee ([33]%)",
+			"Can carry [2] [Missile] units",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Logistics"],
+		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
-		"attackSound": "missile"
+		"attackSound": "artillery"
 	}
 ]

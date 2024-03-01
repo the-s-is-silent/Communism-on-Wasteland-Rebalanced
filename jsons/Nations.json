@@ -11,7 +11,7 @@
 		"declaringWar": "Liberation is imminent.",
 		"attacked": "All reactionary forces are mere fake tigers made out of paper, and you will be left stranded in the ocean of the people's war.",
 		"defeated": "The revolution won't die. As long as there are exploits, there will be revolt.",
-		"introduction": "I'm Li De Sheng, I stand for the proletarians of the world. If you are not reactionary scum, you could be a vital ally.",
+		"introduction": "I am Li De Sheng, Chairman of the United Commune. I stand for the proletarians of the world. If you are not reactionary scum, you could be a vital ally.",
 		"neutralHello": "The Chairman is speaking.",
 		"hateHello": "You are to be hanged on a lamp post, if you even have any.",
 		"tradeRequest": "Trading materials is good for development, isn't it?",
@@ -33,9 +33,14 @@
             "Cannot build [Enslaved] units"
 		],
 		"cities": [
-			"Neo Yan'an",
+			"Xindalu",
+			"Renxing",
+			"Gong Ren",
+			"Paotai",
+			"Reqing",
 			"Star Flame",
 			"Proletarian Estates",
+			"Neo Yan'an",
 			"Neo Beiping",
 			"Marx Town",
 			"Engles Town",
@@ -47,7 +52,8 @@
             "Neo Shanghai",
             "Neo Tianjing",
             "Neo Xi'an",
-            "Neo Guangzhou"
+            "Neo Guangzhou",
+			"Red Dream Town"
 		],
 		"civilopediaText": [
 			{
